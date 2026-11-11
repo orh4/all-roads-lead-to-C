@@ -44,7 +44,7 @@ int main() {
 	printf("%s\n", string);
 	printf("%s %s\n", name[0], name[1]);
 	/*
-	 There is no native "slicing" or arrays in C as compared to Python.
+	 There is no native "slicing" fxor arrays in C as compared to Python.
 	 A similar way to achieve the "slicing" of an array in C is by using pointers,
 	 as seen below.
 	 You can also use a for loop to cycle through an array using a specified range.
@@ -67,7 +67,7 @@ int main() {
 
 	 Example:
 	 ```
-	 char test[] "testHello, World!";
+	 char test[] = "testHello, World!";
 
 	 printf("%s\n", name + 4); // would output "Hello, World!", similar to test[5:] in python.
 	 ```
